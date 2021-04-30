@@ -9,11 +9,11 @@ export const AppConstants = {
   AUTH_API:
     'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/api/auth/',
   GOOGLE_AUTH_URL:
-    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/google?redirect_uri=http://127.0.0.1:8081/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/google?redirect_uri=https://venkatmithun.github.io/login',
   FACEBOOK_AUTH_URL:
-    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/facebook?redirect_uri=http://127.0.0.1:8081/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/facebook?redirect_uri=https://venkatmithun.github.io/login',
   GITHUB_AUTH_URL:
-    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/github?redirect_uri=http://127.0.0.1:8081/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/github?redirect_uri=https://venkatmithun.github.io/login',
   LINKEDIN_AUTH_URL:
-    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/linkedin?redirect_uri=http://127.0.0.1:8081/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/linkedin?redirect_uri=https://venkatmithun.github.io/login',
 };
