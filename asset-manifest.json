@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/homereno-web/static/css/main.c420bf9e.chunk.css",
+    "main.js": "/homereno-web/static/js/main.dcd2e36e.chunk.js",
+    "main.js.map": "/homereno-web/static/js/main.dcd2e36e.chunk.js.map",
+    "runtime-main.js": "/homereno-web/static/js/runtime-main.c8fc69e9.js",
+    "runtime-main.js.map": "/homereno-web/static/js/runtime-main.c8fc69e9.js.map",
+    "static/js/2.77ed81a8.chunk.js": "/homereno-web/static/js/2.77ed81a8.chunk.js",
+    "static/js/2.77ed81a8.chunk.js.map": "/homereno-web/static/js/2.77ed81a8.chunk.js.map",
+    "static/js/3.0b225d12.chunk.js": "/homereno-web/static/js/3.0b225d12.chunk.js",
+    "static/js/3.0b225d12.chunk.js.map": "/homereno-web/static/js/3.0b225d12.chunk.js.map",
+    "index.html": "/homereno-web/index.html",
+    "static/css/main.c420bf9e.chunk.css.map": "/homereno-web/static/css/main.c420bf9e.chunk.css.map",
+    "static/js/2.77ed81a8.chunk.js.LICENSE.txt": "/homereno-web/static/js/2.77ed81a8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8fc69e9.js",
+    "static/js/2.77ed81a8.chunk.js",
+    "static/css/main.c420bf9e.chunk.css",
+    "static/js/main.dcd2e36e.chunk.js"
+  ]
+}
