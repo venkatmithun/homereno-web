@@ -121,7 +121,7 @@ class PaintingForm extends React.Component {
         <form onSubmit={this.handleSubmit}>
           {/* 
         render the form steps and pass required props in
-      */}
+          */}
           <Step1
             currentStep={this.state.currentStep}
             handleChange={this.handleChange}
