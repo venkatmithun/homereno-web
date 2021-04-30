@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/homereno-web/static/css/main.c420bf9e.chunk.css",
-    "main.js": "/homereno-web/static/js/main.44a2bf65.chunk.js",
-    "main.js.map": "/homereno-web/static/js/main.44a2bf65.chunk.js.map",
+    "main.js": "/homereno-web/static/js/main.85a34563.chunk.js",
+    "main.js.map": "/homereno-web/static/js/main.85a34563.chunk.js.map",
     "runtime-main.js": "/homereno-web/static/js/runtime-main.c8fc69e9.js",
     "runtime-main.js.map": "/homereno-web/static/js/runtime-main.c8fc69e9.js.map",
     "static/js/2.77ed81a8.chunk.js": "/homereno-web/static/js/2.77ed81a8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c8fc69e9.js",
     "static/js/2.77ed81a8.chunk.js",
     "static/css/main.c420bf9e.chunk.css",
-    "static/js/main.44a2bf65.chunk.js"
+    "static/js/main.85a34563.chunk.js"
   ]
 }
