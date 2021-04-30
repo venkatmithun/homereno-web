@@ -1,19 +1,19 @@
 //http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080
 export const AppConstants = {
   API_BASE_URL:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/',
   OAUTH2_URL:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/',
   API_URL:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/api/',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/api/',
   AUTH_API:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/api/auth/',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/api/auth/',
   GOOGLE_AUTH_URL:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/google?redirect_uri=https://venkatmithun.github.io/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/google?redirect_uri=https://venkatmithun.github.io/login',
   FACEBOOK_AUTH_URL:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/facebook?redirect_uri=https://venkatmithun.github.io/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/facebook?redirect_uri=https://venkatmithun.github.io/login',
   GITHUB_AUTH_URL:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/github?redirect_uri=https://venkatmithun.github.io/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/github?redirect_uri=https://venkatmithun.github.io/login',
   LINKEDIN_AUTH_URL:
-    'https://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/linkedin?redirect_uri=https://venkatmithun.github.io/login',
+    'http://ec2-35-163-200-125.us-west-2.compute.amazonaws.com:8080/oauth2/authorization/linkedin?redirect_uri=https://venkatmithun.github.io/login',
 };
