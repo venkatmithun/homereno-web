@@ -207,20 +207,6 @@ class Login extends React.Component {
           >
             Sign In with Google
           </Button>
-          <Button
-            variant="contained"
-            style={{
-              margin: '10px 0px 10px 0px',
-              backgroundColor: 'rgb(66, 133, 244)',
-              textTransform: 'none',
-              color: '#ffffff',
-            }}
-            fullWidth
-            startIcon={<Facebook />}
-            href={AppConstants.FACEBOOK_AUTH_URL}
-          >
-            Sign In with Facebook
-          </Button>
           <hr
             style={{
               width: '100%',

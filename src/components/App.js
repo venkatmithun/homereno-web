@@ -35,7 +35,12 @@ class App extends React.Component {
           <Route
             path="/painting-form"
             render={(props) => (
-              <PaintingForm user={user} logOut={logOut} isAuthed={true} />
+              <PaintingForm
+                user={user}
+                logOut={logOut}
+                isAuthed={true}
+                savePaintJob={this.props.savePaintJob}
+              />
             )}
           />
           {/* <PrivateRoute authed={this.state.authed} path='/dashboard' component={Dashboard} /> */}
@@ -48,7 +53,10 @@ class App extends React.Component {
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
     // dispatch,
-    ...bindActionCreators({ logOut: userActions.logOut }, dispatch),
+    ...bindActionCreators(
+      { logOut: userActions.logOut, savePaintJob: userActions.savePaintJob },
+      dispatch
+    ),
   };
 };
 

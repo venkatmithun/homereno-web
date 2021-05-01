@@ -33,6 +33,13 @@ export function signup(user) {
   };
 }
 
+export function savePaintJob(payload) {
+  return {
+    type: types.SAVE_PAINT_JOB,
+    payload: payload,
+  };
+}
+
 export function saveUser(user) {
   console.log('save user action', user);
   return {

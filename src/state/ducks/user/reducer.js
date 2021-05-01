@@ -13,6 +13,9 @@ const initialState = {
   address: '',
   phoneNumber: '',
   role: '',
+  jobs: {
+    painting: [],
+  },
   ...JSON.parse(sessionStorage.getItem(USER_KEY)),
 };
 
@@ -30,6 +33,9 @@ export default function userState(state = initialState, action) {
         address: '',
         phoneNumber: '',
         role: '',
+        jobs: {
+          painting: [],
+        },
       };
 
     case types.SAVE_TOKEN:
@@ -42,6 +48,14 @@ export default function userState(state = initialState, action) {
       return {
         ...state,
         ...action.payload,
+      };
+
+    case types.SAVE_PAINT_JOB:
+      return {
+        ...state,
+        jobs: {
+          painting: [...state.jobs.painting, action.payload],
+        },
       };
 
     // getPublicContent() {

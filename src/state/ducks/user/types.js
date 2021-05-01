@@ -4,5 +4,6 @@ export const types = {
   SAVE_TOKEN: 'SAVE_TOKEN',
   FETCH_USER: 'FETCH_USER',
   SIGN_UP: 'SIGN_UP',
+  SAVE_PAINT_JOB: 'SAVE_PAINT_JOB',
   SAVE_USER: 'SAVE_USER',
 };

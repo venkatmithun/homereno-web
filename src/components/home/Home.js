@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import Category from './Category';
 import Contractor from './Contractor';
 import Header from '../header/Header';
+import _ from 'lodash';
 
 class Home extends React.Component {
   constructor(props) {
@@ -70,6 +71,18 @@ class Home extends React.Component {
               <Contractor name={c} key={idx} />
             ))}
           </div>
+          {!_.isEmpty(user.jobs.painting) && (
+            <div>
+              <h1>Paint jobs posted</h1>
+              {user.jobs.painting.map((rooms, idx) => {
+                return (
+                  <p key={idx}>
+                    Paint Job {idx + 1} for {rooms.length}
+                  </p>
+                );
+              })}
+            </div>
+          )}
           <div>
             <h2>How it works?</h2>
             <p>
